@@ -1,0 +1,41 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  }
+.card {
+  width: 200px;
+  font-family: system-ui;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;              
+  flex-direction: column;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  background: white;
+  margin: 1rem;
+}
+
+.card img {
+  width: auto;
+  height:150px;
+}
+
+.like , .dislike{
+display: flex;
+align-items: center;
+gap: 0.5rem
+}
+
+
+.buttons{
+    padding: 0.5rem;
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons button{
+    background: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: none;
+    
+}

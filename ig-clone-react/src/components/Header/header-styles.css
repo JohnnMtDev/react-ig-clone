@@ -1,0 +1,8 @@
+.header{
+    text-align: center;
+    font-family: system-ui;
+    font-size: small;
+}
+.profile-pic img{
+    border-radius: 100%;
+}
