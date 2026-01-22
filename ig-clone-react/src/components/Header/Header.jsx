@@ -1,6 +1,7 @@
 import React from 'react'
 import data from './profile-data.json'
 import  './header-styles.css'
+import { DarkModeSwitch } from '../DarkModeSwitch/DarkModeSwitch'
 
 export const Header = () => {
   return (
@@ -17,7 +18,7 @@ export const Header = () => {
         ✨ Capturing moments around the world
     </h3>
 
-
+    <DarkModeSwitch />
 
     </div>
   )
